@@ -15,37 +15,7 @@ This app supports **User login/register**, **Admin authorization**, and secure *
 
 ---
 
-## 📂 Folder Structure
 
-```
-project-root/
-├── backend/
-│   ├── controllers/      # Request handlers (login, register, user CRUD)
-│   ├── middleware/       # Authentication & error middleware
-│   ├── models/           # Mongoose models (User schema etc.)
-│   ├── routes/           # Express routes (auth, user, admin APIs)
-│   ├── utils/            # Helper files (cloudinary config, token generator)
-│   ├── server.js         # Express app entry point
-│   └── config/           # DB connection config
-│
-├── frontend/
-│   ├── public/           # Static files
-│   ├── src/
-│   │   ├── actions/      # Redux async actions (authAction.js)
-│   │   ├── slices/       # Redux slices (authSlice.js)
-│   │   ├── components/   # React components (Navbar, Forms, etc.)
-│   │   ├── pages/        # React pages (Login, Register, Dashboard)
-│   │   ├── store.js      # Redux store configuration
-│   │   └── App.js        # Main React app
-│   └── package.json      # Frontend dependencies
-│
-├── .env                  # Environment variables
-├── .gitignore            # Ignored files/folders
-├── package.json          # Backend dependencies
-└── README.md             # Documentation
-```
-
----
 
 ## ⚙️ Installation & Setup
 
